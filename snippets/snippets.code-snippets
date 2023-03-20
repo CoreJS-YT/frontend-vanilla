@@ -1,0 +1,144 @@
+{
+  // html
+  "Generete html5 (html)": {
+    "prefix": "!Chtml",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "<head>",
+      "  <meta charset='UTF-8'/>",
+      "  <meta http-equiv='X-UA-Compatible' content='IE=edge'>",
+      "  <link rel='stylesheet' href='$2'/>",
+      "  <title>$1</title>",
+      "</head>",
+      "<body>",
+      "  $3",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "Generete heading (html)": {
+    "prefix": "!Cheadings",
+    "body": [
+      "<header>",
+      "  <img src='$1' alt='$2' />",
+      "  <h1>$3</h1>",
+      "</header>"
+    ]
+  },
+  "Generete main (html)": {
+    "prefix": "!Cmain",
+    "body": [
+      "<main>",
+      "  $1",
+      "</main>",
+    ]
+  },
+  "Generete footer (html)": {
+    "prefix": "!Cfooter",
+    "body": [
+      "<footer>",
+      "  <h3>$1</h3>",
+      "</footer>"
+    ]
+  },
+  "Generete ul and li * 5 (html)": {
+    "prefix": "!Clist",
+    "body": [
+      "<ul>",
+      "  <li>$1</li>",
+      "  <li>$2</li>",
+      "  <li>$3</li>",
+      "  <li>$4</li>",
+      "  <li>$5</li>",
+      "</ul>"
+    ]
+  },
+  // CSS
+  "Generete flex center center (css)": {
+    "prefix": "!Cflex-cc",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;"
+    ]
+  },
+  "Generete body default (css)": {
+    "prefix": "!Cbody",
+    "body": [
+      "body {",
+      "  background: $1;",
+      "  font-family: $2;",
+      "  font-size: $3;",
+      "  color: $5;",
+      "}"
+    ]
+  },
+  "Generete grid 12c 6r (css)": {
+    "prefix": "!Cgrid-12r-6r",
+    "body": [
+      "$1 {",
+      "  display: grid;",
+      "  grid-template-columns: repeat(12, 1fr);",
+      "  grid-template-rows: repeat(6, 1fr);",
+      "}"
+    ]
+  },
+  "Generete img 300x500 (css)": {
+    "prefix": "!Cimg1x5",
+    "body": [
+      "$1 {",
+      "  width: 300px;",
+      "  height: 500px;",
+      "  object-fit: cover;",
+      "}"
+    ]
+  },
+  "Generete img 500x700 (css)": {
+    "prefix": "!Cimg5x7",
+    "body": [
+      "$1 {",
+      "  width: 500px",
+      "  height: 700px",
+      "  object-fit: cover;",
+      "}"
+    ]
+  },
+  // JS
+  "Generete import archive (js)": {
+    "prefix": "!Cimp1",
+    "body": [
+      "import {$2} from '$1'"
+    ]
+  },
+  "Generete import module (js)": {
+    "prefix": "!Cimp2",
+    "body": [
+      "import $2 from '$1'"
+    ]
+  },
+  "Generete arrow function (js)": {
+    "prefix": "!Carrow",
+    "body": [
+      "($1) => {$2}"
+    ]
+  },
+  "Generete const id (js)": {
+    "prefix": "!Cconst1",
+    "body": [
+      "const $2 = document.getElementById($1)"
+    ]
+  },
+  "Generete const class (js)": {
+    "prefix": "!Cconst2",
+    "body": [
+      "const $2 = document.getElementsByClassName($1)"
+    ]
+  },
+  "Generete const container (js)": {
+    "prefix": "!Cconst2",
+    "body": [
+      "const $2 = document.querySellector($1)"
+    ]
+  }
+}
