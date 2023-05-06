@@ -4,7 +4,7 @@ Son porciones de codigo que puede usar.\
 **Advertencia!!!**\
 ***!Son hecho con los usos diarios mios pero no estan creados con ninguna inspiracción de los paradigmas de escribir js, css y html***
 
-## Snippets HTML
+## Snippets HTML Basics
 
 Todos los snippets actuales creados:
 
@@ -26,7 +26,7 @@ Todos los snippets actuales creados:
 </html>
 ```
 
-**`!Cheadings`**:
+**`Cheadings`**:
 ```html
 <header>
     <img src='' alt='' />
@@ -36,14 +36,14 @@ Todos los snippets actuales creados:
 </header>
 ```
 
-**`!Cmain`**:
+**`Cmain`**:
 ```html
 <main>
   <!-- Aqui Pones Lo Que Quieras -->
 </main>
 ```
 
-**`!Cfooter`**:
+**`Cfooter`**:
 ```html
 <footer>
   <h3></h3>
@@ -52,7 +52,7 @@ Todos los snippets actuales creados:
 </footer>
 ```
 
-**`!Clist`**:
+**`Clist`**:
 ```html
 <ul>
   <li></li>
@@ -68,7 +68,7 @@ Todos los snippets actuales creados:
 ## Snippets CSS
 Todos los snippets actualmente creados
 
-**`!Cflex-cc`**:
+**`Cflex-cc`**:
 ```css
 div {
   display: flex;
@@ -77,7 +77,7 @@ div {
 }
 ```
 
-**`!Cbody`**:
+**`Cbody`**:
 ```css
 body {",
   background: ;
@@ -91,7 +91,7 @@ body {",
 /* Aqui Pones Lo Que Quieras */
 ```
 
-**`!Cgrid-12r-6r`**:
+**`Cgrid-12r-6r`**:
 ```css
 * {
   display: grid;
