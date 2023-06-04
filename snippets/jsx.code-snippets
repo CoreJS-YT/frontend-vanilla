@@ -1,0 +1,18 @@
+{
+  "Generete new component (JSX)": {
+    "prefix": "CJSnewcomp",
+    "body": "function $1() { $2 }"
+  },
+  "Generete altarnate new component (JSX)": {
+    "prefix": "CJSancomp",
+    "body": "const $1 = $2 => { $3 }"
+  },
+  "Generete un useState (JSX)": {
+    "prefix": "CJSstate",
+    "body": "const [ $1, set$2 ] = useState($3)"
+  },
+  "Generete un useEffect": {
+    "prefix": "CJSeffect",
+    "body": "useEffect($1 => { $2 }, [])"
+  }
+}

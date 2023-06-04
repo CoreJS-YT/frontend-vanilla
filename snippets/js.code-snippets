@@ -1,0 +1,26 @@
+{
+  "Generete import archive (JS)": {
+    "prefix": "CJSimp1",
+    "body": "import {$2} from \"$1\""
+  },
+  "Generete import module (JS)": {
+    "prefix": "CJSimp2",
+    "body": "import $2 from \"$1\""
+  },
+  "Generete arrow function (JS)": {
+    "prefix": "CJSarrow",
+    "body": "($1) => {$2}"
+  },
+  "Generete const id (JS)": {
+    "prefix": "CJSconst1",
+    "body": "CJSconst $2 = document.getElementById($1)"
+  },
+  "Generete const class (JS)": {
+    "prefix": "CJSonst2",
+    "body": "const $2 = document.getElementsByClassName($1)"
+  },
+  "Generete const container (JS)": {
+    "prefix": "CJSconst3",
+    "body": "const $2 = document.querySellector($1)"
+  },
+}

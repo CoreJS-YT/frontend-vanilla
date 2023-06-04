@@ -1,0 +1,51 @@
+{
+  "Generete html5 (HTML)": {
+    "prefix": "CJShtml",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "<head>",
+      "  <meta charset=\"UTF-8\"/>",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "  <title></title>",
+      "</head>",
+      "<body>",
+      "  $1",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "Generete heading (HTML)": {
+    "prefix": "CJSheadings",
+    "body": [
+      "<header>",
+      "  <img src=\"$1\" alt=\"$2\" />",
+      "  <h1>$2</h1>",
+      "</header>"
+    ]
+  },
+  "Generete main (HTML)": {
+    "prefix": "CJSmain",
+    "body": [
+      "<main>",
+      "  $1",
+      "</main>",
+    ]
+  },
+  "Generete footer (HTML)": {
+    "prefix": "CJSfooter",
+    "body": [
+      "<footer>",
+      "  <h3>$1</h3>",
+      "</footer>"
+    ]
+  },
+  "Generete ul and li (HTML)": {
+    "prefix": "CJSlist",
+    "body": [
+      "<ul>",
+      "  <li>$1</li>",
+      "</ul>"
+    ]
+  },
+}

@@ -1,74 +1,45 @@
 # Frontend Vanilla Snippets
 ## Description
-Son porciones de codigo que puede usar.\
-**Advertencia!!!**\
-***!Son hecho con los usos diarios mios pero no estan creados con ninguna inspiracción de los paradigmas de escribir js, css y html***
+Hola esta extencion te ayudara a poner porciones de codigo en pocos segundos.\
+**Si quieres dar ideas a mas snippets manda un correo a *corejsyt2011@gmail.com***
 
-## Snippets HTML Basics
+## Snippets HTML
+Algunos los snippets actuales creados:
 
-Todos los snippets actuales creados:
-
-**`!Chtml`**:
+**`CJShtml`**:
 ```html
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="$2" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title></title>
 </head>
 <body>
-
-  <!-- Aqui Pones Lo Que Quieras -->
 
 </body>
 </html>
 ```
 
-**`Cheadings`**:
+**`CJSheadings`**:
 ```html
 <header>
-    <img src='' alt='' />
+    <img src="" alt="" />
     <h1></h1>
-
-    <!-- Aqui Pones Lo Que Quieras -->
 </header>
 ```
 
-**`Cmain`**:
+**`CJSmain`**:
 ```html
 <main>
-  <!-- Aqui Pones Lo Que Quieras -->
+
 </main>
 ```
 
-**`Cfooter`**:
-```html
-<footer>
-  <h3></h3>
-
-  <!-- Aqui Pones Lo Que Quieras -->
-</footer>
-```
-
-**`Clist`**:
-```html
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-
-  <!-- Aqui Pones Lo Que Quieras -->
-</ul>
-```
-
 ## Snippets CSS
-Todos los snippets actualmente creados
+Algunos de los snippets actualmente creados
 
-**`Cflex-cc`**:
+**`CJSflex-cc`**:
 ```css
 div {
   display: flex;
@@ -77,21 +48,17 @@ div {
 }
 ```
 
-**`Cbody`**:
+**`CJSbody`**:
 ```css
 body {",
   background: ;
   font-family: ;
   font-size: ;
   color: ;
-
-  /* Aqui Pones Lo Que Quieras */
 }
-
-/* Aqui Pones Lo Que Quieras */
 ```
 
-**`Cgrid-12r-6r`**:
+**`CJSgrid-12r-6r`**:
 ```css
 * {
   display: grid;
@@ -100,9 +67,44 @@ body {",
 }
 ```
 
+## Snippets JS
+Algunos de los snippets actualmente creados
+
+**`CJSimp1`**:
+```javascript
+import { ModuleName } from "module"
+```
+
+**`CJSimp2`**:
+```javascript
+import ModuleName from "module"
+```
+**`CJSarrow`**:
+```javascript
+( /* parametros */ ) => { /* Codigo siguiente */ }
+```
+
+
+
+## Snippets JSX
+**`CJSnewcomp`**:
+```jsx
+function ExampleComponent() {  }
+```
+
+**`CJSancomp`**:
+```jsx
+const ExampleComponent = () => {  }
+```
+
+**`CJSstate`**:
+```jsx
+const [ example, setExample ] = useState(example)
+```
+
 ## Acerca de:
-Author: [**CoreJS**](https://corejs-yt.github.io)\
-Fecha de creación: 19/03/23\
-Verción: 1.0v\
-[Youtube]('https://www.youtube.com/@corejs-yt')\
+Authors: [**CoreJS Enterprise**](https://corejs-yt.github.io) \
+Fecha de creación: 19/03/23 \
+Verción: 1.5v \
+[Youtube](https://www.youtube.com/@corejs-enterprise) \
 [Github](https://github.com/CoreJS-YT)

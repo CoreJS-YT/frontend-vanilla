@@ -1,0 +1,71 @@
+{
+  "Generete rules flex center center (CSS)": {
+    "prefix": "CJSflex-cc",
+    "body": [
+      "$1 {",
+      "  display: flex;",
+      "  align-items: center;",
+      "  justify-content: center;",
+      "}"
+    ]
+  },
+  "Generete rules body default (CSS)": {
+    "prefix": "CJSbody",
+    "body": [
+      "body {",
+      "  background: $1;",
+      "  font-family: $2;",
+      "  font-size: $3;",
+      "  color: $5;",
+      "}"
+    ]
+  },
+  "Generete rules grid 12c 6r (CSS)": {
+    "prefix": "CJSgrid-12r-6r",
+    "body": [
+      "$1 {",
+      "  display: grid;",
+      "  grid-template-columns: repeat(12, 1fr);",
+      "  grid-template-rows: repeat(6, 1fr);",
+      "}"
+    ]
+  },
+  "Generete rules img 300x500 (CSS)": {
+    "prefix": "CJSimg1x5",
+    "body": [
+      "$1 {",
+      "  width: 300px;",
+      "  height: 500px;",
+      "  object-fit: cover;",
+      "}"
+    ]
+  },
+  "Generete rules img 500x700 (CSS)": {
+    "prefix": "CJSimg5x7",
+    "body": [
+      "$1 {",
+      "  width: 500px;",
+      "  height: 700px;",
+      "  object-fit: cover;",
+      "}"
+    ]
+  },
+  "Generete vars css (CSS)": {
+    "prefix": "CJSvars",
+    "body": [
+      ":root {",
+      "  --$1",
+      "}"
+    ]
+  },
+  "Generete rules reset defaults (CSS)": {
+    "prefix": "CJSreset",
+    "body": [
+      "* {",
+      "  margin: 0;",
+      "  padding: 0;",
+      "  box-sizing: border-box;",
+      "}"
+    ]
+  },
+}

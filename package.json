@@ -2,7 +2,7 @@
   "name": "frontend-vanilla-snippets",
   "displayName": "Frontend Vanilla Snippets",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -13,19 +13,19 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/html.code-snippets"
       },
       {
         "language": "css",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/css.code-snippets"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/js.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/jsx.code-snippets"
       }
     ]
   },
